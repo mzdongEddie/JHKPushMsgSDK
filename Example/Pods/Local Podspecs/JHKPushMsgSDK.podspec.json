@@ -1,0 +1,28 @@
+{
+  "name": "JHKPushMsgSDK",
+  "version": "0.1.0",
+  "summary": "阿里云移动推送集成",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mzdongEddie/JHKPushMsgSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mzdongEddie": "mazhendong@hisense.com"
+  },
+  "source": {
+    "git": "https://github.com/mzdongEddie/JHKPushMsgSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JHKPushMsgSDK/Classes/*",
+  "public_header_files": "JHKPushMsgSDK/Classes/*.h",
+  "dependencies": {
+    "AlicloudPush": [
+      "~> 1.9.8"
+    ]
+  }
+}

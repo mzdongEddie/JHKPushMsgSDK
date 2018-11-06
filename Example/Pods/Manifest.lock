@@ -1,0 +1,45 @@
+PODS:
+  - AlicloudPush (1.9.8):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.5):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.19)
+  - AlicloudUtils (1.3.5):
+    - AlicloudUTDID
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JHKPushMsgSDK (0.1.0):
+    - AlicloudPush (~> 1.9.8)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JHKPushMsgSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudPush
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JHKPushMsgSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlicloudPush: 50df02cff716d9ac950ceb89195d447e7af003a2
+  AlicloudUT: 1b52965b97c5fc0b630901ce184391fbe1ef8479
+  AlicloudUTDID: 14b582e41b39bc66e5a3420b61dafd0567ef4603
+  AlicloudUtils: 36bd836fdd5c040ee0c9c06b0e1e1096a8c59c44
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JHKPushMsgSDK: 0099f27e94ebebc8a3194709b92557fe434f58dd
+
+PODFILE CHECKSUM: cb0fdd9bd28f14c1ed9b85a8385e2098f0025478
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,14 @@
+#use_frameworks!
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+target 'JHKPushMsgSDK_Example' do
+  pod 'JHKPushMsgSDK', :path => '../'
+
+  target 'JHKPushMsgSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

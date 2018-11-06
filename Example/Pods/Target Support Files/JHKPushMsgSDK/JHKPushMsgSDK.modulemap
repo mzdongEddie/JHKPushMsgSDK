@@ -1,0 +1,6 @@
+framework module JHKPushMsgSDK {
+  umbrella header "JHKPushMsgSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

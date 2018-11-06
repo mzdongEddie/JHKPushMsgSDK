@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050304D9589CC9414F1FBFBEF0759586 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D710C5B3BE678D74B881BACEB32683 /* UIImage+Diff.m */; };
+		0B30850E322AC88630D0D7D0DEC8A41D /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D1892C35F31D06D4449F275478159027 /* FBSnapshotTestCasePlatform.m */; };
+		14C4A16E1598BE4A067113B6C346984F /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0263907460A3C670D9A3627D600A2458 /* FBSnapshotTestCase-dummy.m */; };
+		2763379D483B1FCAE356DFFD048C0734 /* Pods-JHKPushMsgSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5616F2B7C74EB6D5BF55E423F6D5957 /* Pods-JHKPushMsgSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		278BBB28D14A7A8DC327E052970149C4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB72C8474F3A3C0AC66793076465FA2 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27A686C932DEDF064558E0B836C5DAF1 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6BDFEDDD1358125B4862DADF906D4 /* UIApplication+StrictKeyWindow.m */; };
+		292046EA6FEB6FF23A9D89EB7F469A79 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = DF194635B2A5E8B50577130640CA70C3 /* UIImage+Compare.m */; };
+		422B91AF0F38E5E7CED9EFFD950BAFF2 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A15CCFB7B5832A4C48C300EB002F2DC /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F5FE5317E79834944273A0F4C8ED45A /* JHKPushMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = D561D41FD58C24A9E0EB522153E06D8C /* JHKPushMsg.m */; };
+		8256D8B46A4AD5832D61178C9DE2BB27 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E07E96EFBB74C8E0F751453E97F8219 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87D9BB9610D2A6058503D7FAD88A6BD2 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3093BDC58972537A160397B0BCF70E5A /* FBSnapshotTestController.m */; };
+		8AB7886218ECBBD613598B3B3A9CE0DF /* JHKPushMsgSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899E3C7783B1261A86E7A82F773688CB /* JHKPushMsgSDK-dummy.m */; };
+		8D22AB9192762CFBF213FC0B2266E3A6 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B79F395708F1951A920FB1BDF64A5D3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FAC83C78A5B795557A70494E1FA20A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		ABF3F94E5540A246DDC7817AE0408D7D /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 596F245582DB1D9AB5E8EF8E2FBF1010 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B17643031F02D29950457CD4D7047C57 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 456716C2F3943BE1BF87E9D7440224DA /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCACCEE2677B367D7CDB7651D2A67EE1 /* JHKPushMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E2D83461690A58A239302D50B3E7DF /* JHKPushMsg.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
+		C1422852C68C2C99D28DD46F017AF3C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */; };
+		C1FCA533B1A1DD11EE64E1117E00D7E6 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E1D06314CE0B2F78245A4CBEEF871 /* UIImage+Snapshot.m */; };
+		C5C89B6C0771DC469A87123ABC3EA578 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3F198D30DEAC580E4FFBFCBAB16024 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C62D9D61BF3E490FCA89CE7BF8A225F2 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = D66027E70CE64E5A464802E9E2953144 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC79F16867C4894D16F4CCF3ACF49EAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */; };
+		D44F433D61BEB27DC6FF7B1D0014EB30 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FEB63EFDE323E9F12EFEBBD607093 /* SwiftSupport.swift */; };
+		E0338D7DCC1BF5F254360CD3321291ED /* Pods-JHKPushMsgSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22383FCAA02BDE5B59CA4BB3EC4F9A /* Pods-JHKPushMsgSDK_Example-dummy.m */; };
+		E524D4F7D4ED8920D2597CF2BB7AB63E /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 130E58EC940A77448588DFAFB256F53B /* FBSnapshotTestCase.m */; };
+		E940CDBF5E3D4DCC5C8E667C0C51EF5C /* Pods-JHKPushMsgSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5FA3278C1BDD210D891F965B378B2E /* Pods-JHKPushMsgSDK_Tests-dummy.m */; };
+		F4E54D58958863C8CBE355766AAAD2D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A98245C1FA856FD4246B1F23024B1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3452074A56CAE67C5D13E304B33FA6AD;
+			remoteInfo = "Pods-JHKPushMsgSDK_Example";
+		};
+		3BDC92183FF4541ED523F59A47F7929E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68AAB3CA72F118C33E134F420A496DF;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		5169E184FF02493541B77C3D8AACA515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED187C8959E05696EB7C395A86F701F;
+			remoteInfo = JHKPushMsgSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0263907460A3C670D9A3627D600A2458 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		05D710C5B3BE678D74B881BACEB32683 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		08E2D83461690A58A239302D50B3E7DF /* JHKPushMsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHKPushMsg.h; path = JHKPushMsgSDK/Classes/JHKPushMsg.h; sourceTree = "<group>"; };
+		0A15CCFB7B5832A4C48C300EB002F2DC /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		0C94545EF0D7BBA4AC14CA0D264E83EE /* Pods-JHKPushMsgSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHKPushMsgSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		130E58EC940A77448588DFAFB256F53B /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1B9AB243ED54D137ADD2E9C2A6A06D31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1EB72C8474F3A3C0AC66793076465FA2 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		1ECC83F0731C91A808CEEB2F43F7EA1C /* libJHKPushMsgSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJHKPushMsgSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C1217521429FF23031C2BF2DB563F4 /* Pods-JHKPushMsgSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHKPushMsgSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3093BDC58972537A160397B0BCF70E5A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		32D7AE278AA026A557777AFCA28ABD34 /* JHKPushMsgSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHKPushMsgSDK-prefix.pch"; sourceTree = "<group>"; };
+		33E4705AB346020BF6FCC8A8FA9C70D6 /* Pods-JHKPushMsgSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JHKPushMsgSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A59B59368D83314A2E93BB9DF933822 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = FBSnapshotTestCase.modulemap; path = ../../Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		456716C2F3943BE1BF87E9D7440224DA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		496E1D06314CE0B2F78245A4CBEEF871 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		4A3F198D30DEAC580E4FFBFCBAB16024 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSnapshotTestCase-umbrella.h"; path = "../../Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		4AB81ACFBE4EDE85985CD61E19E297F0 /* libPods-JHKPushMsgSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHKPushMsgSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D166C8A5DA4EDD9E27E2B1E148DF847 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		596F245582DB1D9AB5E8EF8E2FBF1010 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		6876551ED59291ABD3D584675451A9B0 /* Pods-JHKPushMsgSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHKPushMsgSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AAD92A466082B3E0228AAE588756491 /* Pods-JHKPushMsgSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHKPushMsgSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D726972BF31B2E686EB9ED31D234F90 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = utils/AlicloudUtils.framework; sourceTree = "<group>"; };
+		6E5FA3278C1BDD210D891F965B378B2E /* Pods-JHKPushMsgSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHKPushMsgSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		700B0D089133BECFBADC9A55509AA71A /* JHKPushMsgSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHKPushMsgSDK.xcconfig; sourceTree = "<group>"; };
+		73397670FAB69EAA5F78D6F45F1DC279 /* libPods-JHKPushMsgSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHKPushMsgSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DE6FE47A4591B84E1E953D75B381DB /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = utdid/UTDID.framework; sourceTree = "<group>"; };
+		76ED6500306043C8BFEBB04464403D99 /* Pods-JHKPushMsgSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHKPushMsgSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		78395D87D0A605B186221D9FA08A1568 /* JHKPushMsgSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JHKPushMsgSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79B6BDFEDDD1358125B4862DADF906D4 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		7A65EEE09D0015F69B8CB07FF8DA251C /* Pods-JHKPushMsgSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHKPushMsgSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		899E3C7783B1261A86E7A82F773688CB /* JHKPushMsgSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHKPushMsgSDK-dummy.m"; sourceTree = "<group>"; };
+		8BE5D85D51F3317F7FC826E69AA8A1B5 /* Pods-JHKPushMsgSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHKPushMsgSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C22383FCAA02BDE5B59CA4BB3EC4F9A /* Pods-JHKPushMsgSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHKPushMsgSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		919E2BCBA570CB8D71A4EDE103FF8D1D /* Pods-JHKPushMsgSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHKPushMsgSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979B3A7BAD60435B649C099BC5F9215A /* Pods-JHKPushMsgSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHKPushMsgSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B79F395708F1951A920FB1BDF64A5D3 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		9E07E96EFBB74C8E0F751453E97F8219 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		A5616F2B7C74EB6D5BF55E423F6D5957 /* Pods-JHKPushMsgSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JHKPushMsgSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD12F7A390077D4679E6505E4CE8AB2D /* Pods-JHKPushMsgSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHKPushMsgSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		B5FFE6F059A745265559470837F12B00 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		B6636A93C316785500EDD3155AE97AE4 /* Pods-JHKPushMsgSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHKPushMsgSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B689380E9A50D2E1FC6B5B86EBB54F81 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ut/UTMini.framework; sourceTree = "<group>"; };
+		B76433716C472EEE2EFC96B8E4ECA51A /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC064C88A20AF67034D22E82E41628E /* Pods-JHKPushMsgSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHKPushMsgSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3AE19B8531294F18143CB83B81283E /* CloudPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudPushSDK.framework; path = push/CloudPushSDK.framework; sourceTree = "<group>"; };
+		C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D1892C35F31D06D4449F275478159027 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		D561D41FD58C24A9E0EB522153E06D8C /* JHKPushMsg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHKPushMsg.m; path = JHKPushMsgSDK/Classes/JHKPushMsg.m; sourceTree = "<group>"; };
+		D66027E70CE64E5A464802E9E2953144 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		DF194635B2A5E8B50577130640CA70C3 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		E46FEB63EFDE323E9F12EFEBBD607093 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		EB5F507693D775C0B6E855E270ACF92D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FDCB8CAAEA1E1551026BBDA7985148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED910D343EA44FC65AD8020FC4E4702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865325350B96765E9D4935C8F5B3441C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6631900EF43A0E5E4420C25237DBB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAC83C78A5B795557A70494E1FA20A7 /* Foundation.framework in Frameworks */,
+				C1422852C68C2C99D28DD46F017AF3C2 /* QuartzCore.framework in Frameworks */,
+				F4E54D58958863C8CBE355766AAAD2D7 /* UIKit.framework in Frameworks */,
+				CC79F16867C4894D16F4CCF3ACF49EAC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B9F24024D457E75EDD14719F7DF89E /* AlicloudUTDID */ = {
+			isa = PBXGroup;
+			children = (
+				7A53EB2DF861037A854F9E645C5046CC /* Frameworks */,
+			);
+			path = AlicloudUTDID;
+			sourceTree = "<group>";
+		};
+		10B9DF06DF34C1FDC9ED0807CCAC9483 /* AlicloudUT */ = {
+			isa = PBXGroup;
+			children = (
+				BB80204249AD355868F3D481B1EE2CA2 /* Frameworks */,
+			);
+			path = AlicloudUT;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E6A3533BFFC5453A29188F8955E61A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		281FE025CCAE99D2FDB9A15F8B169B8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				700B0D089133BECFBADC9A55509AA71A /* JHKPushMsgSDK.xcconfig */,
+				899E3C7783B1261A86E7A82F773688CB /* JHKPushMsgSDK-dummy.m */,
+				32D7AE278AA026A557777AFCA28ABD34 /* JHKPushMsgSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JHKPushMsgSDK";
+			sourceTree = "<group>";
+		};
+		3121FB7512E57B94FC02F25775086EFC /* Pods-JHKPushMsgSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				979B3A7BAD60435B649C099BC5F9215A /* Pods-JHKPushMsgSDK_Example-acknowledgements.markdown */,
+				6AAD92A466082B3E0228AAE588756491 /* Pods-JHKPushMsgSDK_Example-acknowledgements.plist */,
+				8C22383FCAA02BDE5B59CA4BB3EC4F9A /* Pods-JHKPushMsgSDK_Example-dummy.m */,
+				76ED6500306043C8BFEBB04464403D99 /* Pods-JHKPushMsgSDK_Example-frameworks.sh */,
+				AD12F7A390077D4679E6505E4CE8AB2D /* Pods-JHKPushMsgSDK_Example-resources.sh */,
+				7A65EEE09D0015F69B8CB07FF8DA251C /* Pods-JHKPushMsgSDK_Example.debug.xcconfig */,
+				B6636A93C316785500EDD3155AE97AE4 /* Pods-JHKPushMsgSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-JHKPushMsgSDK_Example";
+			path = "Target Support Files/Pods-JHKPushMsgSDK_Example";
+			sourceTree = "<group>";
+		};
+		37C4B36FB6FD4B0747C6E11F13F3A85A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CAB2AD55CBF9898807874B0757910 /* JHKPushMsgSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5351D385DC592DD0990E6E3BA8F241F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AE19B8531294F18143CB83B81283E /* CloudPushSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BB6BF57EB8C16AD2F41FEA134378959 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A59B59368D83314A2E93BB9DF933822 /* FBSnapshotTestCase.modulemap */,
+				B5FFE6F059A745265559470837F12B00 /* FBSnapshotTestCase.xcconfig */,
+				0263907460A3C670D9A3627D600A2458 /* FBSnapshotTestCase-dummy.m */,
+				4D166C8A5DA4EDD9E27E2B1E148DF847 /* FBSnapshotTestCase-prefix.pch */,
+				4A3F198D30DEAC580E4FFBFCBAB16024 /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		673CDA430173C9712A1F3D8EFEF14790 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D66027E70CE64E5A464802E9E2953144 /* FBSnapshotTestCase.h */,
+				130E58EC940A77448588DFAFB256F53B /* FBSnapshotTestCase.m */,
+				596F245582DB1D9AB5E8EF8E2FBF1010 /* FBSnapshotTestCasePlatform.h */,
+				D1892C35F31D06D4449F275478159027 /* FBSnapshotTestCasePlatform.m */,
+				0A15CCFB7B5832A4C48C300EB002F2DC /* FBSnapshotTestController.h */,
+				3093BDC58972537A160397B0BCF70E5A /* FBSnapshotTestController.m */,
+				9E07E96EFBB74C8E0F751453E97F8219 /* UIApplication+StrictKeyWindow.h */,
+				79B6BDFEDDD1358125B4862DADF906D4 /* UIApplication+StrictKeyWindow.m */,
+				9B79F395708F1951A920FB1BDF64A5D3 /* UIImage+Compare.h */,
+				DF194635B2A5E8B50577130640CA70C3 /* UIImage+Compare.m */,
+				1EB72C8474F3A3C0AC66793076465FA2 /* UIImage+Diff.h */,
+				05D710C5B3BE678D74B881BACEB32683 /* UIImage+Diff.m */,
+				456716C2F3943BE1BF87E9D7440224DA /* UIImage+Snapshot.h */,
+				496E1D06314CE0B2F78245A4CBEEF871 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6D8640BDC77A02C5B30F20D7EC01C78C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D726972BF31B2E686EB9ED31D234F90 /* AlicloudUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E6A3533BFFC5453A29188F8955E61A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */,
+				C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */,
+				37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */,
+				4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A53EB2DF861037A854F9E645C5046CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DE6FE47A4591B84E1E953D75B381DB /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				37C4B36FB6FD4B0747C6E11F13F3A85A /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				BA9586900C7EF667A2414CD603F3DF15 /* Pods */,
+				9D4483EBC61AB996FEE48928234C341C /* Products */,
+				AE3D8B0545912D97F51CDAF9C0E60B99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF697AF497F8C0C6EFB2125D312AAB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				78395D87D0A605B186221D9FA08A1568 /* JHKPushMsgSDK.podspec */,
+				EB5F507693D775C0B6E855E270ACF92D /* LICENSE */,
+				1B9AB243ED54D137ADD2E9C2A6A06D31 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C17F70C386C9A39EF88BFB54953C373 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E46FEB63EFDE323E9F12EFEBBD607093 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9D4483EBC61AB996FEE48928234C341C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76433716C472EEE2EFC96B8E4ECA51A /* libFBSnapshotTestCase.a */,
+				1ECC83F0731C91A808CEEB2F43F7EA1C /* libJHKPushMsgSDK.a */,
+				73397670FAB69EAA5F78D6F45F1DC279 /* libPods-JHKPushMsgSDK_Example.a */,
+				4AB81ACFBE4EDE85985CD61E19E297F0 /* libPods-JHKPushMsgSDK_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3D8B0545912D97F51CDAF9C0E60B99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3121FB7512E57B94FC02F25775086EFC /* Pods-JHKPushMsgSDK_Example */,
+				DA920DE4886006E2027248B09E86F6C1 /* Pods-JHKPushMsgSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B254CC8CC30BA538CF0779B14914B20C /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				673CDA430173C9712A1F3D8EFEF14790 /* Core */,
+				5BB6BF57EB8C16AD2F41FEA134378959 /* Support Files */,
+				8C17F70C386C9A39EF88BFB54953C373 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BA9586900C7EF667A2414CD603F3DF15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF33B493644430B151E973AA21AFD80 /* AlicloudPush */,
+				10B9DF06DF34C1FDC9ED0807CCAC9483 /* AlicloudUT */,
+				00B9F24024D457E75EDD14719F7DF89E /* AlicloudUTDID */,
+				F20F22B2BBE21B8C760B57FB2DA3D49E /* AlicloudUtils */,
+				B254CC8CC30BA538CF0779B14914B20C /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB80204249AD355868F3D481B1EE2CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B689380E9A50D2E1FC6B5B86EBB54F81 /* UTMini.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA920DE4886006E2027248B09E86F6C1 /* Pods-JHKPushMsgSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33E4705AB346020BF6FCC8A8FA9C70D6 /* Pods-JHKPushMsgSDK_Tests.modulemap */,
+				26C1217521429FF23031C2BF2DB563F4 /* Pods-JHKPushMsgSDK_Tests-acknowledgements.markdown */,
+				6876551ED59291ABD3D584675451A9B0 /* Pods-JHKPushMsgSDK_Tests-acknowledgements.plist */,
+				6E5FA3278C1BDD210D891F965B378B2E /* Pods-JHKPushMsgSDK_Tests-dummy.m */,
+				919E2BCBA570CB8D71A4EDE103FF8D1D /* Pods-JHKPushMsgSDK_Tests-frameworks.sh */,
+				0C94545EF0D7BBA4AC14CA0D264E83EE /* Pods-JHKPushMsgSDK_Tests-resources.sh */,
+				A5616F2B7C74EB6D5BF55E423F6D5957 /* Pods-JHKPushMsgSDK_Tests-umbrella.h */,
+				BAC064C88A20AF67034D22E82E41628E /* Pods-JHKPushMsgSDK_Tests.debug.xcconfig */,
+				8BE5D85D51F3317F7FC826E69AA8A1B5 /* Pods-JHKPushMsgSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-JHKPushMsgSDK_Tests";
+			path = "Target Support Files/Pods-JHKPushMsgSDK_Tests";
+			sourceTree = "<group>";
+		};
+		EA0CAB2AD55CBF9898807874B0757910 /* JHKPushMsgSDK */ = {
+			isa = PBXGroup;
+			children = (
+				08E2D83461690A58A239302D50B3E7DF /* JHKPushMsg.h */,
+				D561D41FD58C24A9E0EB522153E06D8C /* JHKPushMsg.m */,
+				8AF697AF497F8C0C6EFB2125D312AAB4 /* Pod */,
+				281FE025CCAE99D2FDB9A15F8B169B8B /* Support Files */,
+			);
+			name = JHKPushMsgSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F20F22B2BBE21B8C760B57FB2DA3D49E /* AlicloudUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6D8640BDC77A02C5B30F20D7EC01C78C /* Frameworks */,
+			);
+			path = AlicloudUtils;
+			sourceTree = "<group>";
+		};
+		FDF33B493644430B151E973AA21AFD80 /* AlicloudPush */ = {
+			isa = PBXGroup;
+			children = (
+				5351D385DC592DD0990E6E3BA8F241F8 /* Frameworks */,
+			);
+			path = AlicloudPush;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		410359758A81B04AE64FE5181065B1A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2763379D483B1FCAE356DFFD048C0734 /* Pods-JHKPushMsgSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9583594076017EA4934BBA5FFDA0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C89B6C0771DC469A87123ABC3EA578 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				C62D9D61BF3E490FCA89CE7BF8A225F2 /* FBSnapshotTestCase.h in Headers */,
+				ABF3F94E5540A246DDC7817AE0408D7D /* FBSnapshotTestCasePlatform.h in Headers */,
+				422B91AF0F38E5E7CED9EFFD950BAFF2 /* FBSnapshotTestController.h in Headers */,
+				8256D8B46A4AD5832D61178C9DE2BB27 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8D22AB9192762CFBF213FC0B2266E3A6 /* UIImage+Compare.h in Headers */,
+				278BBB28D14A7A8DC327E052970149C4 /* UIImage+Diff.h in Headers */,
+				B17643031F02D29950457CD4D7047C57 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870CCC78F77B76B5ADAA9CB4C2C49DA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F3539658372BFAE465D9CDFC0EA62C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCACCEE2677B367D7CDB7651D2A67EE1 /* JHKPushMsg.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B5B3E692D492D5A9FC64C381B3A4CB2 /* Pods-JHKPushMsgSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6C34E22138A3855043C6BD6921972C /* Build configuration list for PBXNativeTarget "Pods-JHKPushMsgSDK_Tests" */;
+			buildPhases = (
+				410359758A81B04AE64FE5181065B1A2 /* Headers */,
+				D59BACED6409C2A92C687411BC04A231 /* Sources */,
+				37FDCB8CAAEA1E1551026BBDA7985148 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131BCDEFE4A12B8BE68B4642F19F3148 /* PBXTargetDependency */,
+				9975C00E3FE1D4CFF4E38269C57A9CC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-JHKPushMsgSDK_Tests";
+			productName = "Pods-JHKPushMsgSDK_Tests";
+			productReference = 4AB81ACFBE4EDE85985CD61E19E297F0 /* libPods-JHKPushMsgSDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3452074A56CAE67C5D13E304B33FA6AD /* Pods-JHKPushMsgSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65487D554EA36074E0C44742AD5680F3 /* Build configuration list for PBXNativeTarget "Pods-JHKPushMsgSDK_Example" */;
+			buildPhases = (
+				870CCC78F77B76B5ADAA9CB4C2C49DA4 /* Headers */,
+				C7BED672A296AF48B4A8E55968DD2DC5 /* Sources */,
+				865325350B96765E9D4935C8F5B3441C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2A4DF868D3D2C7CF6CBE5807B2DE493 /* PBXTargetDependency */,
+			);
+			name = "Pods-JHKPushMsgSDK_Example";
+			productName = "Pods-JHKPushMsgSDK_Example";
+			productReference = 73397670FAB69EAA5F78D6F45F1DC279 /* libPods-JHKPushMsgSDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B68AAB3CA72F118C33E134F420A496DF /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5DDD0DC714067C6D2DA0116EAFCB2D /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				62A9583594076017EA4934BBA5FFDA0B /* Headers */,
+				7DD3F7CF9B28E02E0038DD13C71A5558 /* Sources */,
+				D6631900EF43A0E5E4420C25237DBB2B /* Frameworks */,
+				ED0362E311B62267FDF1534ABA1DA76B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = B76433716C472EEE2EFC96B8E4ECA51A /* libFBSnapshotTestCase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EED187C8959E05696EB7C395A86F701F /* JHKPushMsgSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59FC917E1B9152F246F2A21A80FE663 /* Build configuration list for PBXNativeTarget "JHKPushMsgSDK" */;
+			buildPhases = (
+				C0F3539658372BFAE465D9CDFC0EA62C /* Headers */,
+				FBB9504BAA4237B132B83D3E141A2948 /* Sources */,
+				6ED910D343EA44FC65AD8020FC4E4702 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHKPushMsgSDK;
+			productName = JHKPushMsgSDK;
+			productReference = 1ECC83F0731C91A808CEEB2F43F7EA1C /* libJHKPushMsgSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9D4483EBC61AB996FEE48928234C341C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68AAB3CA72F118C33E134F420A496DF /* FBSnapshotTestCase */,
+				EED187C8959E05696EB7C395A86F701F /* JHKPushMsgSDK */,
+				3452074A56CAE67C5D13E304B33FA6AD /* Pods-JHKPushMsgSDK_Example */,
+				1B5B3E692D492D5A9FC64C381B3A4CB2 /* Pods-JHKPushMsgSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED0362E311B62267FDF1534ABA1DA76B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD3F7CF9B28E02E0038DD13C71A5558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C4A16E1598BE4A067113B6C346984F /* FBSnapshotTestCase-dummy.m in Sources */,
+				E524D4F7D4ED8920D2597CF2BB7AB63E /* FBSnapshotTestCase.m in Sources */,
+				0B30850E322AC88630D0D7D0DEC8A41D /* FBSnapshotTestCasePlatform.m in Sources */,
+				87D9BB9610D2A6058503D7FAD88A6BD2 /* FBSnapshotTestController.m in Sources */,
+				D44F433D61BEB27DC6FF7B1D0014EB30 /* SwiftSupport.swift in Sources */,
+				27A686C932DEDF064558E0B836C5DAF1 /* UIApplication+StrictKeyWindow.m in Sources */,
+				292046EA6FEB6FF23A9D89EB7F469A79 /* UIImage+Compare.m in Sources */,
+				050304D9589CC9414F1FBFBEF0759586 /* UIImage+Diff.m in Sources */,
+				C1FCA533B1A1DD11EE64E1117E00D7E6 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BED672A296AF48B4A8E55968DD2DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0338D7DCC1BF5F254360CD3321291ED /* Pods-JHKPushMsgSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59BACED6409C2A92C687411BC04A231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E940CDBF5E3D4DCC5C8E667C0C51EF5C /* Pods-JHKPushMsgSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB9504BAA4237B132B83D3E141A2948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5FE5317E79834944273A0F4C8ED45A /* JHKPushMsg.m in Sources */,
+				8AB7886218ECBBD613598B3B3A9CE0DF /* JHKPushMsgSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131BCDEFE4A12B8BE68B4642F19F3148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = B68AAB3CA72F118C33E134F420A496DF /* FBSnapshotTestCase */;
+			targetProxy = 3BDC92183FF4541ED523F59A47F7929E /* PBXContainerItemProxy */;
+		};
+		9975C00E3FE1D4CFF4E38269C57A9CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JHKPushMsgSDK_Example";
+			target = 3452074A56CAE67C5D13E304B33FA6AD /* Pods-JHKPushMsgSDK_Example */;
+			targetProxy = 1A98245C1FA856FD4246B1F23024B1DB /* PBXContainerItemProxy */;
+		};
+		B2A4DF868D3D2C7CF6CBE5807B2DE493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHKPushMsgSDK;
+			target = EED187C8959E05696EB7C395A86F701F /* JHKPushMsgSDK */;
+			targetProxy = 5169E184FF02493541B77C3D8AACA515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		121DDBA82C28AC21D97DF127E0C4F602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6636A93C316785500EDD3155AE97AE4 /* Pods-JHKPushMsgSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E254F159D5CF7ABABEA2F9FD69CFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FFE6F059A745265559470837F12B00 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1DE57EEFA335411A024DD5663396DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700B0D089133BECFBADC9A55509AA71A /* JHKPushMsgSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JHKPushMsgSDK/JHKPushMsgSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JHKPushMsgSDK;
+				PRODUCT_NAME = JHKPushMsgSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B7741C0FCF7E37B45B989B6C488B467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE5D85D51F3317F7FC826E69AA8A1B5 /* Pods-JHKPushMsgSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JHKPushMsgSDK_Tests/Pods-JHKPushMsgSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A31B2EFB173BCE98CC67D67928A19F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700B0D089133BECFBADC9A55509AA71A /* JHKPushMsgSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JHKPushMsgSDK/JHKPushMsgSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JHKPushMsgSDK;
+				PRODUCT_NAME = JHKPushMsgSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D19574F0359A54D01B9043D116EE4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC064C88A20AF67034D22E82E41628E /* Pods-JHKPushMsgSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JHKPushMsgSDK_Tests/Pods-JHKPushMsgSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE58DCCED267575FF8DD1518A4258650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A65EEE09D0015F69B8CB07FF8DA251C /* Pods-JHKPushMsgSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C672D0FC48C02F2430522AF0039097C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FFE6F059A745265559470837F12B00 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6C34E22138A3855043C6BD6921972C /* Build configuration list for PBXNativeTarget "Pods-JHKPushMsgSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19574F0359A54D01B9043D116EE4F2 /* Debug */,
+				5B7741C0FCF7E37B45B989B6C488B467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65487D554EA36074E0C44742AD5680F3 /* Build configuration list for PBXNativeTarget "Pods-JHKPushMsgSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE58DCCED267575FF8DD1518A4258650 /* Debug */,
+				121DDBA82C28AC21D97DF127E0C4F602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5DDD0DC714067C6D2DA0116EAFCB2D /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C672D0FC48C02F2430522AF0039097C7 /* Debug */,
+				13E254F159D5CF7ABABEA2F9FD69CFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59FC917E1B9152F246F2A21A80FE663 /* Build configuration list for PBXNativeTarget "JHKPushMsgSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1DE57EEFA335411A024DD5663396DB /* Debug */,
+				8A31B2EFB173BCE98CC67D67928A19F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

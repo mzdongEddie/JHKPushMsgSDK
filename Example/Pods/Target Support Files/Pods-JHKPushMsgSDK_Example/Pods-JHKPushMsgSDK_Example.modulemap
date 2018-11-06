@@ -1,0 +1,6 @@
+framework module Pods_JHKPushMsgSDK_Example {
+  umbrella header "Pods-JHKPushMsgSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

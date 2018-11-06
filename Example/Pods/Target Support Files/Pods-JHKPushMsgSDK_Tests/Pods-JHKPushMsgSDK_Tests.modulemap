@@ -1,0 +1,6 @@
+module Pods_JHKPushMsgSDK_Tests {
+  umbrella header "Pods-JHKPushMsgSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
