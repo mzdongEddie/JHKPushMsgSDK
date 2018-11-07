@@ -309,7 +309,93 @@ API_AVAILABLE(ios(10.0)){
         [_jhkPushMsgDelegate pushNotificationValues:dic];
     }
 }
+-(int)JHKBindAccount:(NSString *)account
+{
+    static int flag = 0;
+    if (account == nil || account.length == 0) {
+        return flag;
+    }
+    [CloudPushSDK bindAccount:account withCallback:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            flag = 1;
+            NSLog(@"JHK: 账号绑定成功");
+        } else {
+            flag = 2;
+            NSLog(@"JHK: 账号绑定失败，错误: %@",res.error);
+        }
+    }];
+    return flag;
+}
+- (int)JHKUnbindAccount {
+    static int flag = 0;
+    [CloudPushSDK unbindAccount:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            flag = 1;
+            NSLog(@"JHK: 账号解绑成功");
+        } else {
+            flag = 2;
+            NSLog(@"JHK: 账号解绑失败，错误: %@",res.error);
+        }
+    }];
+    return flag;
+}
 
+- (int)JHKBindTagForDevice:(NSString *)tagStr {
+    static int flag = 0;
+    NSArray *tagArray = [tagStr componentsSeparatedByString:@" "];
+    [CloudPushSDK bindTag:1 withTags:tagArray withAlias:nil withCallback:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            flag = 1;
+            NSLog(@"JHK: 设备标签绑定成功");
+        } else {
+            flag = 2;
+            NSLog(@"JHK: 设备标签绑定失败，错误: %@",res.error);
+        }
+    }];
+    return flag;
+}
+
+- (int)JHKUnbindTagForDevice:(NSString *)tagStr {
+    static int flag = 0;
+    NSArray *tagArray = [tagStr componentsSeparatedByString:@" "];
+    [CloudPushSDK unbindTag:1 withTags:tagArray withAlias:nil withCallback:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            flag = 1;
+            NSLog(@"JHK: 设备标签解绑成功");
+        } else {
+            flag = 2;
+            NSLog(@"JHK: 设备标签解绑失败，错误: %@",res.error);
+        }
+    }];
+    return flag;
+}
+- (int)JHKAddAlias:(NSString *)alias {
+    static int flag = 0;
+    [CloudPushSDK addAlias:alias withCallback:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            flag = 1;
+            NSLog(@"JHK: 别名添加成功");
+        } else {
+            flag = 2;
+            NSLog(@"JHK: 别名添加失败，错误: %@",res.error);
+        }
+    }];
+    return flag;
+}
+
+- (int)JHKRemoveAlias:(NSString *)alias {
+    static int flag = 0;
+    [CloudPushSDK removeAlias:alias withCallback:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            flag = 1;
+            NSLog(@"JHK: 别名移除成功");
+        } else {
+            flag = 2;
+            NSLog(@"JHK: 别名移除失败，错误: %@",res.error);
+        }
+    }];
+    return flag;
+}
 @end
 
 

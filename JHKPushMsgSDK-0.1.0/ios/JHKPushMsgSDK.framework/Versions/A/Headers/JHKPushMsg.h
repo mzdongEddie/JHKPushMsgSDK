@@ -25,12 +25,6 @@
 -(void)JHKSendNotificationAck:(NSDictionary *)launchOptions;
 -(void)JHKRegisterDevice:(NSData *)deviceToken;
 -(void)JHKDidReceiveRemoteNotificationForOldIOSVersion:(NSDictionary*)userInfo application:(UIApplication*)application;
--(int)JHKBindAccount:(NSString *)account; //flag = 0：账号为空，flag= 1：账号绑定成功，flag=2：账号绑定失败
--(int)JHKUnbindAccount; //flag= 1：账号绑定成功，flag=2：账号绑定失败
--(int)JHKBindTagForDevice:(NSString *)tagStr; //flag= 1：账号绑定成功，flag=2：账号绑定失败
--(int)JHKUnbindTagForDevice:(NSString *)tagStr; //flag= 1：账号绑定成功，flag=2：账号绑定失败
--(int)JHKAddAlias:(NSString *)alias;
--(int)JHKRemoveAlias:(NSString *)alias;
 @end
 
 
