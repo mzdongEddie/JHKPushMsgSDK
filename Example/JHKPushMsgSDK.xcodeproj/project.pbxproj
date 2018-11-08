@@ -507,6 +507,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHKPushMsgSDK/JHKPushMsgSDK-Prefix.pch";
 				INFOPLIST_FILE = "JHKPushMsgSDK/JHKPushMsgSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +525,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHKPushMsgSDK/JHKPushMsgSDK-Prefix.pch";
 				INFOPLIST_FILE = "JHKPushMsgSDK/JHKPushMsgSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 903753812EEA8494FE2EB509 /* Pods-JHKPushMsgSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -558,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 334874F01C38737D655F4CBB /* Pods-JHKPushMsgSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

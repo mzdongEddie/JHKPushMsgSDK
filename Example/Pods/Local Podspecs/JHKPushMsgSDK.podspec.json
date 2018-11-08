@@ -1,6 +1,6 @@
 {
   "name": "JHKPushMsgSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "阿里云移动推送集成",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mzdongEddie/JHKPushMsgSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mzdongEddie/JHKPushMsgSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

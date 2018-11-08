@@ -7,12 +7,14 @@
 //
 
 #import "pushAppDelegate.h"
-
+#import <JHKPushMsgSDK/JHKPushMsg.h>
 @implementation pushAppDelegate
-
+static NSString * const appKey = @"24992448";
+static NSString * const appSecret = @"683eb25f81fbcdb677e0d837e9338f01";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[JHKPushMsg instantedJHKPushMsg] JHKInitCloudPushWithAppKey:appKey withAppSecret:appSecret];
     return YES;
 }
 
