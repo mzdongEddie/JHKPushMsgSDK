@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JHKPushMsgSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = '阿里云移动推送集成'
 
 # This description is used to generate tags and improve search results.
