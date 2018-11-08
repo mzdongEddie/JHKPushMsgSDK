@@ -6,7 +6,7 @@
 //
 #import <UIKit/UIKit.h>
 #import "JHKPushMsg.h"
-
+#import <CloudPushSDK/CloudPushSDK.h>
 @interface JHKPushMsg()<UNUserNotificationCenterDelegate>
 @end
 

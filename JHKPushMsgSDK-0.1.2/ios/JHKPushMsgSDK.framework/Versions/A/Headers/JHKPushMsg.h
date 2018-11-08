@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>// iOS 10 notification
+#import <CloudPushSDK/CloudPushSDK.h>
 
 @protocol JHKPushMsgDelegate <NSObject>
 @required

@@ -12,7 +12,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JHKPushMsgSDK (0.1.1):
+  - JHKPushMsgSDK (0.1.2):
     - AlicloudPush (~> 1.9.8)
 
 DEPENDENCIES:
@@ -38,7 +38,7 @@ SPEC CHECKSUMS:
   AlicloudUTDID: 14b582e41b39bc66e5a3420b61dafd0567ef4603
   AlicloudUtils: 36bd836fdd5c040ee0c9c06b0e1e1096a8c59c44
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JHKPushMsgSDK: b55a944791899d3bfcc6fd0b1ffba2acd97397f5
+  JHKPushMsgSDK: 131bd3e72baee055b63bd189d3510ab3c5d33143
 
 PODFILE CHECKSUM: cb0fdd9bd28f14c1ed9b85a8385e2098f0025478
 
