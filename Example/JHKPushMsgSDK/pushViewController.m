@@ -7,7 +7,7 @@
 //
 
 #import "pushViewController.h"
-
+#import <JHKPushMsgSDK/JHKPushMsg.h>
 @interface pushViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"JHK: My Device ID: %@",[[JHKPushMsg instantedJHKPushMsg] JHKGetAliDeviceId]);
 }
 
 - (void)didReceiveMemoryWarning

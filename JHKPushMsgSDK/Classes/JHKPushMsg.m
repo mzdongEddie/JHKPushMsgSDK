@@ -84,17 +84,34 @@ API_AVAILABLE(ios(10.0)){
 #pragma clang diagnostic pop
     }
 }
+/*
+ *  APNs注册成功回调，将返回的deviceToken上传到CloudPush服务器。 用在 UIApplicationDelegate: didRegisterForRemoteNotificationsWithDeviceToken里面
+ */
+-(void)JHKRegisterDevice:(NSData *)deviceToken
+{
+    [CloudPushSDK registerDevice:deviceToken withCallback:^(CloudPushCallbackResult *res) {
+        if (res.success) {
+            NSLog(@"JHK: Register deviceToken success, deviceToken: %@", [CloudPushSDK getApnsDeviceToken]);
+        } else {
+            NSLog(@"JHK: Register deviceToken failed, error: %@", res.error);
+        }
+    }];
+}
 
 #pragma mark SDK Init
--(void)JHKInitCloudPushWithAppKey:(NSString *)appKey withAppSecret:(NSString *)appSecret
+-(NSString *)JHKInitCloudPushWithAppKey:(NSString *)appKey withAppSecret:(NSString *)appSecret
 {
+    static NSString * returnValue = @"";
     [CloudPushSDK asyncInit:appKey appSecret:appSecret callback:^(CloudPushCallbackResult *res) {
         if (res.success) {
             NSLog(@"JHK: Push SDK init success, deviceId: %@.", [CloudPushSDK getDeviceId]);
+            returnValue = [CloudPushSDK getDeviceId];
         } else {
             NSLog(@"JHK: Push SDK init failed, error: %@", res.error);
+            returnValue = @"";
         }
     }];
+    return returnValue;
 }
 -(void)JHKListenerOnChannelOpened
 {
@@ -146,7 +163,7 @@ API_AVAILABLE(ios(10.0)){
     }
     
 }
-
+// 点击通知将App从关闭状态启动时，将通知打开回执上报
 -(void)JHKSendNotificationAck:(NSDictionary *)launchOptions
 {
     [CloudPushSDK sendNotificationAck:launchOptions];
@@ -166,20 +183,6 @@ API_AVAILABLE(ios(10.0)){
         // 注册category到通知中心
         [nc setNotificationCategories:[NSSet setWithObjects:category, nil]];
     }
-}
-
-/*
- *  APNs注册成功回调，将返回的deviceToken上传到CloudPush服务器
- */
--(void)JHKRegisterDevice:(NSData *)deviceToken
-{
-    [CloudPushSDK registerDevice:deviceToken withCallback:^(CloudPushCallbackResult *res) {
-        if (res.success) {
-            NSLog(@"JHK: Register deviceToken success, deviceToken: %@", [CloudPushSDK getApnsDeviceToken]);
-        } else {
-            NSLog(@"JHK: Register deviceToken failed, error: %@", res.error);
-        }
-    }];
 }
 
 /**
@@ -218,10 +221,9 @@ API_AVAILABLE(ios(10.0)){
     // 处理iOS 10通知，并上报通知打开回执
     [self handleiOS10Notification:notification];
     // 通知不弹出
-    //completionHandler(UNNotificationPresentationOptionNone);
-    
+    completionHandler(UNNotificationPresentationOptionNone);
     // 通知弹出，且带有声音、内容和角标
-    completionHandler(UNNotificationPresentationOptionSound | UNNotificationPresentationOptionAlert);
+    //completionHandler(UNNotificationPresentationOptionSound | UNNotificationPresentationOptionAlert);
 }
 /**
  *  触发通知动作时回调，比如点击、删除通知和点击自定义action(iOS 10+)
@@ -285,7 +287,7 @@ API_AVAILABLE(ios(10.0)){
         }
     }];
 }
-
+//通知参数delegate回调
 -(void)delegateNotificationDataCallBack:(NSDate * _Nullable)noticeDate strOfTitle:(NSString * _Nullable)title strOfSubtitle:(NSString * _Nullable)subtitle strOfBody:(NSString * _Nullable)body intOfBadge:(int)badge strOfExtras:(NSString *)extras strOfSound:(NSString * _Nullable) sound strOfContent:(NSString * _Nullable) content
 {
     NSMutableDictionary *dic = [[NSMutableDictionary alloc]init];
@@ -308,6 +310,7 @@ API_AVAILABLE(ios(10.0)){
         [_jhkPushMsgDelegate pushNotificationValues:dic];
     }
 }
+//绑定账号
 -(int)JHKBindAccount:(NSString *)account
 {
     static int flag = 0;
@@ -325,6 +328,7 @@ API_AVAILABLE(ios(10.0)){
     }];
     return flag;
 }
+//解除账号绑定
 - (int)JHKUnbindAccount {
     static int flag = 0;
     [CloudPushSDK unbindAccount:^(CloudPushCallbackResult *res) {
@@ -338,7 +342,7 @@ API_AVAILABLE(ios(10.0)){
     }];
     return flag;
 }
-
+//绑定Tag
 - (int)JHKBindTagForDevice:(NSString *)tagStr {
     static int flag = 0;
     NSArray *tagArray = [tagStr componentsSeparatedByString:@" "];
@@ -353,7 +357,7 @@ API_AVAILABLE(ios(10.0)){
     }];
     return flag;
 }
-
+//解除绑定Tag
 - (int)JHKUnbindTagForDevice:(NSString *)tagStr {
     static int flag = 0;
     NSArray *tagArray = [tagStr componentsSeparatedByString:@" "];
@@ -368,6 +372,7 @@ API_AVAILABLE(ios(10.0)){
     }];
     return flag;
 }
+//绑定别名
 - (int)JHKAddAlias:(NSString *)alias {
     static int flag = 0;
     [CloudPushSDK addAlias:alias withCallback:^(CloudPushCallbackResult *res) {
@@ -381,7 +386,7 @@ API_AVAILABLE(ios(10.0)){
     }];
     return flag;
 }
-
+//解除绑定别名
 - (int)JHKRemoveAlias:(NSString *)alias {
     static int flag = 0;
     [CloudPushSDK removeAlias:alias withCallback:^(CloudPushCallbackResult *res) {
@@ -394,6 +399,23 @@ API_AVAILABLE(ios(10.0)){
         }
     }];
     return flag;
+}
+-(NSString *)JHKGetSDKVersion
+{
+    NSString * sdkVersion = @"";
+    sdkVersion = [CloudPushSDK getVersion];
+    return (sdkVersion) ? sdkVersion : @"";
+}
+-(NSString *)JHKGetAliDeviceId
+{
+    NSString * deviceId = @"";
+    deviceId = [CloudPushSDK getDeviceId];
+    return (deviceId) ? deviceId : @"";
+}
+//TODO: Pass device id to Hisense system for registration
+-(void)JHKRegisterToHsSystem: (NSDictionary *)dic
+{
+    
 }
 @end
 
